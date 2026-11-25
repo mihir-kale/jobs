@@ -1,50 +1,38 @@
-# Jobs
+# jobs — JSON → PDF renderer
 
-Deterministic JSON → PDF resume and cover letter renderer. No AI, no API keys, no build step.
+Deterministic, offline PDF generation for resumes and cover letters. There is no LLM, no
+database, no web server, and no CLI: an external Python environment (e.g. ChatGPT's code
+interpreter) supplies a content dict and an output path, and this package writes the PDF.
 
-- Paste resume JSON (or cover letter JSON) into the web UI, get a PDF.
-- Sections render in the order their keys appear in the JSON; absent sections are skipped.
-- Optional `section_titles` renames headings; `future: true` renders an `(Incoming)` prefix.
-- Cover letters detected automatically when the JSON has a `body` array.
-
-## Local web UI
+## Install
 
 ```bash
-python3.12 server.py        # http://127.0.0.1:5000
-python3.12 server.py --port 8080
+python3.12 -m pip install -r requirements.txt   # fpdf2 only
 ```
 
-## CLI
+## API
 
-```bash
-python3.12 render.py input/content.json    # -> output/<LastName_FirstName_Resume_MM_DD>.pdf
-python3.12 render.py --jd input/job.txt    # inject ATS keywords (invisible white font)
+```python
+from pdf_generator import generate_resume_pdf
+from cover_letter_generator import generate_cover_letter_pdf
+
+generate_resume_pdf(content, "/tmp/resume.pdf")
+suggested_stem = generate_cover_letter_pdf(content, "/tmp/cover_letter.pdf")
 ```
 
-## JSON format
+Both functions take a plain `dict` and a destination path. They do **not** create parent
+directories — the caller must do that. The cover-letter function returns a suggested
+filename stem but writes to the path you pass.
 
-See `json_instructions.md` for the exact schema and renderer rules.
+## Content JSON
 
-## Deploy
+- Resume shape and renderer rules: [`json_instructions.md`](json_instructions.md).
+- Body sections are `education`, `experience`, `leadership`, `additional`.
+- **Section order follows JSON key insertion order**; absent or empty sections are skipped.
+- No schema validation happens at render time — the dict must already be well formed.
 
-The web UI runs on Vercel from `server.py` (a Flask WSGI app) with `@vercel/python`.
+## Fonts
 
-## JD storage and parsing pipeline
-
-Job descriptions are stored in Supabase (hosted) and parsed into structured,
-candidate-independent competency maps by a deterministic LLM pipeline.
-
-- `job_descriptions` — raw JD text. `job_competency_maps` — validated structured output, one per JD.
-- `jd_parser_prompt.md` — fixed system prompt. `jd_parser_schema.json` — strict output shape.
-- `jd_validator.py` — programmatic validation (schema, evidence quotes, ranks, score totals, ordering).
-- `jd_pipeline.py` — reads unparsed JDs from Supabase, calls the pinned model at `temperature: 0`, validates, repairs once on failure, stores results.
-
-Both tables are RLS-locked to `service_role` only (see `20260829000003_lockdown_rls.sql`); the public/publishable key has no read or write access. Use `SUPABASE_SERVICE_KEY` for any access.
-
-```bash
-pip install -r requirements.txt   # stdlib only for the pipeline; no extra deps
-cp .env.example .env              # fill in SUPABASE_URL, SUPABASE_SERVICE_KEY, LLM_API_KEY, LLM_MODEL
-python3.12 jd_pipeline.py --dry-run   # list unparsed JDs
-python3.12 jd_pipeline.py             # parse, validate, store
-python3.12 jd_pipeline.py --jd-id <uuid>
-```
+The renderer prefers system Times New Roman and metric-compatible substitutes. The bundled
+[`fonts/`](fonts/) directory is the last-resort fallback and must stay with the package
+(or rendering fails on hosts without a suitable serif font).

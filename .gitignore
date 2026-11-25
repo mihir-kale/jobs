@@ -1,29 +1,16 @@
-# Generated PDFs and content
-output/
+# Caller-supplied content and generated PDFs
 input/
-tests/*.pdf
+output/
+
+# Secrets
+.env
+.env.*
 
 # Python
 __pycache__/
-*.pyc
-*.pyo
-.Python
-venv/
+*.py[cod]
 .venv/
+venv/
 
-# OS / editor
+# OS
 .DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Vercel local link state
-.vercel
-
-# Credentials
-.env
-
-# Supabase local runtime state (not the config/migrations)
-supabase/.temp
-supabase/.branches
-supabase/.status
