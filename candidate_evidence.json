@@ -1,0 +1,1401 @@
+{
+  "schema_version": "1.0",
+  "candidate": {
+    "name": "Mihir Kale",
+    "email": "mpkale@unc.edu",
+    "phone": "(704) 957-9236",
+    "location": "Raleigh, NC",
+    "linkedin": "linkedin.com/in/mihirpkale/"
+  },
+  "education": [
+    {
+      "education_id": "unc",
+      "institution": "University of North Carolina at Chapel Hill | Kenan-Flagler Business School",
+      "location": "Chapel Hill, NC",
+      "date": "June 2028",
+      "degree": "Bachelor of Science in Business Administration and Computer Science",
+      "details": [
+        {
+          "detail_id": "unc_gpa",
+          "text": "GPA: 3.7",
+          "locked": true,
+          "detail_tags": []
+        },
+        {
+          "detail_id": "unc_honors",
+          "text": "Honors: Dean's List, National Merit Finalist",
+          "locked": true,
+          "detail_tags": []
+        },
+        {
+          "detail_id": "unc_sat",
+          "text": "SAT: 1550",
+          "locked": true,
+          "optional": true,
+          "detail_tags": []
+        }
+      ]
+    },
+    {
+      "education_id": "sciences_po",
+      "institution": "Paris Institute of Political Studies (Sciences Po)",
+      "location": "Paris, France",
+      "date": "2025",
+      "degree": "Certificate in Economics",
+      "details": [
+        {
+          "detail_id": "sciences_po_econometrics",
+          "text": "Coursework: Econometrics, data analysis, and quantitative modeling",
+          "locked": true,
+          "detail_tags": [
+            "data_analysis",
+            "quantitative_analysis"
+          ]
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "siemens_2026",
+      "section": "experience",
+      "organization": "Siemens Digital Industries Software",
+      "location": "Charlotte, NC",
+      "title": "Software Engineering and AI Intern",
+      "dates": "Summer 2026",
+      "facts": [
+        {
+          "fact_id": "siemens_ai_triage",
+          "canonical_description": "Built an interactive chatbot that parses and translates error logs for service-outage triage, centralizing issue information and standardizing prioritization through Jira and Atlassian MCP integration.",
+          "actions": [
+            "built",
+            "parsed",
+            "translated",
+            "integrated",
+            "standardized"
+          ],
+          "objects": [
+            "interactive chatbot",
+            "error logs",
+            "issue information",
+            "Jira workflows",
+            "prioritization"
+          ],
+          "technologies": [
+            "Python",
+            "Jira",
+            "Atlassian MCP"
+          ],
+          "stakeholders": [
+            "developers"
+          ],
+          "competency_tags": [
+            "ai_llm",
+            "software_engineering",
+            "workflow_automation",
+            "implementation"
+          ],
+          "domain_tags": [
+            "enterprise_ai",
+            "software"
+          ],
+          "metrics": [
+            "siemens_resolution_accuracy",
+            "siemens_developer_users"
+          ],
+          "approved_terms": [
+            "AI-powered Jira triage workflow",
+            "error-log triage",
+            "service-outage triage"
+          ],
+          "forbidden_inferences": [
+            "real-time pipeline",
+            "enterprise data warehouse"
+          ],
+          "evidence_strength": 5,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "siemens_impact_award",
+          "canonical_description": "Won the Siemens-wide Intern Impact Award for the error-triage chatbot project.",
+          "actions": [
+            "won"
+          ],
+          "objects": [
+            "Siemens-wide Intern Impact Award",
+            "error-triage chatbot"
+          ],
+          "technologies": [],
+          "stakeholders": [],
+          "competency_tags": [
+            "software_engineering",
+            "ai_llm",
+            "implementation"
+          ],
+          "domain_tags": [
+            "enterprise_ai",
+            "software"
+          ],
+          "metrics": [],
+          "approved_terms": [
+            "Intern Impact Award"
+          ],
+          "forbidden_inferences": [],
+          "evidence_strength": 5,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "siemens_allocation_model",
+          "canonical_description": "Built a Python decision-support model using vendor pricing, adoption, and usage data to evaluate enterprise AI resource-allocation scenarios.",
+          "actions": [
+            "analyzed",
+            "evaluated",
+            "modeled",
+            "built"
+          ],
+          "objects": [
+            "Python decision-support model",
+            "vendor pricing data",
+            "adoption data",
+            "usage data",
+            "AI resource-allocation scenarios"
+          ],
+          "technologies": [
+            "Python"
+          ],
+          "stakeholders": [
+            "management"
+          ],
+          "competency_tags": [
+            "quantitative_analysis",
+            "data_analysis",
+            "decision_support",
+            "resource_allocation",
+            "financial_analysis",
+            "data_modeling"
+          ],
+          "domain_tags": [
+            "enterprise_ai",
+            "software"
+          ],
+          "metrics": [],
+          "approved_terms": [
+            "AI resource-allocation scenarios",
+            "decision-support model",
+            "token rationing"
+          ],
+          "forbidden_inferences": [],
+          "evidence_strength": 5,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "siemens_savings_analysis",
+          "canonical_description": "Evaluated vendor pricing, adoption patterns, and usage data to model AI resource-allocation alternatives and identify up to $6 million in potential annual savings.",
+          "actions": [
+            "evaluated",
+            "modeled",
+            "identified"
+          ],
+          "objects": [
+            "vendor pricing",
+            "adoption patterns",
+            "usage data",
+            "resource-allocation alternatives",
+            "potential annual savings"
+          ],
+          "technologies": [
+            "Python"
+          ],
+          "stakeholders": [
+            "management"
+          ],
+          "competency_tags": [
+            "quantitative_analysis",
+            "financial_analysis",
+            "resource_allocation",
+            "decision_support"
+          ],
+          "domain_tags": [
+            "enterprise_ai",
+            "software",
+            "finance"
+          ],
+          "metrics": [
+            "siemens_savings"
+          ],
+          "approved_terms": [
+            "token rationing",
+            "AI resource allocation"
+          ],
+          "forbidden_inferences": [
+            "saved $6M",
+            "realized $6M in savings"
+          ],
+          "evidence_strength": 5,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "siemens_token_optimization",
+          "canonical_description": "Identified opportunities to reduce AI token spend by 3 million tokens annually.",
+          "actions": [
+            "identified"
+          ],
+          "objects": [
+            "AI token spend",
+            "3 million annual tokens"
+          ],
+          "technologies": [
+            "Python"
+          ],
+          "stakeholders": [
+            "management"
+          ],
+          "competency_tags": [
+            "quantitative_analysis",
+            "resource_allocation",
+            "financial_analysis"
+          ],
+          "domain_tags": [
+            "enterprise_ai",
+            "software"
+          ],
+          "metrics": [
+            "siemens_token_reduction"
+          ],
+          "approved_terms": [],
+          "forbidden_inferences": [
+            "reduced AI token spend by 3M tokens",
+            "saved 3M tokens"
+          ],
+          "evidence_strength": 4,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "siemens_engineering_hours",
+          "canonical_description": "Identified opportunities to save more than 300 engineering hours monthly through AI usage and workflow analysis.",
+          "actions": [
+            "identified"
+          ],
+          "objects": [
+            "engineering hours",
+            "monthly workflow savings",
+            "AI usage analysis"
+          ],
+          "technologies": [],
+          "stakeholders": [],
+          "competency_tags": [
+            "quantitative_analysis",
+            "resource_allocation",
+            "decision_support"
+          ],
+          "domain_tags": [
+            "enterprise_ai",
+            "software"
+          ],
+          "metrics": [
+            "siemens_engineering_hours"
+          ],
+          "approved_terms": [],
+          "forbidden_inferences": [
+            "saved 300 engineering hours monthly"
+          ],
+          "evidence_strength": 4,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "siemens_usage_analysis",
+          "canonical_description": "Analyzed enterprise AI usage across development and sales teams.",
+          "actions": [
+            "analyzed"
+          ],
+          "objects": [
+            "enterprise AI usage",
+            "development team usage",
+            "sales team usage"
+          ],
+          "technologies": [],
+          "stakeholders": [
+            "management"
+          ],
+          "competency_tags": [
+            "data_analysis",
+            "quantitative_analysis"
+          ],
+          "domain_tags": [
+            "enterprise_ai",
+            "software"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 4,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "siemens_dashboard",
+          "canonical_description": "Built a Python token-usage and decision-support dashboard from the allocation analysis.",
+          "actions": [
+            "built",
+            "developed"
+          ],
+          "objects": [
+            "Python token-usage dashboard",
+            "decision-support dashboard"
+          ],
+          "technologies": [
+            "Python"
+          ],
+          "stakeholders": [
+            "management"
+          ],
+          "competency_tags": [
+            "software_engineering",
+            "data_visualization",
+            "decision_support",
+            "data_modeling"
+          ],
+          "domain_tags": [
+            "enterprise_ai",
+            "software"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 4,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "siemens_exec_presentation",
+          "canonical_description": "Developed an executive presentation recommending investment priorities by team, workflow, and business value.",
+          "actions": [
+            "developed",
+            "presented",
+            "recommended"
+          ],
+          "objects": [
+            "executive presentation",
+            "investment priorities"
+          ],
+          "technologies": [],
+          "stakeholders": [
+            "executive leadership"
+          ],
+          "competency_tags": [
+            "presentation",
+            "strategic_recommendations",
+            "communication",
+            "financial_analysis"
+          ],
+          "domain_tags": [
+            "enterprise_ai",
+            "software"
+          ],
+          "metrics": [],
+          "approved_terms": [
+            "executive recommendations"
+          ],
+          "forbidden_inferences": [],
+          "evidence_strength": 4,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "siemens_issue_resolution",
+          "canonical_description": "Resolved more than 100 cross-platform engineering issues across C and AWS.",
+          "actions": [
+            "resolved"
+          ],
+          "objects": [
+            "cross-platform engineering issues",
+            "C codebase",
+            "AWS services"
+          ],
+          "technologies": [
+            "C",
+            "AWS"
+          ],
+          "stakeholders": [],
+          "competency_tags": [
+            "software_engineering",
+            "implementation"
+          ],
+          "domain_tags": [
+            "software"
+          ],
+          "metrics": [
+            "siemens_issues_resolved"
+          ],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 5,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "siemens_backlog_reduction",
+          "canonical_description": "Reduced the engineering backlog by 42%.",
+          "actions": [
+            "reduced"
+          ],
+          "objects": [
+            "engineering backlog"
+          ],
+          "technologies": [],
+          "stakeholders": [],
+          "competency_tags": [
+            "process_improvement",
+            "workflow_automation"
+          ],
+          "domain_tags": [
+            "software"
+          ],
+          "metrics": [
+            "siemens_backlog_reduction"
+          ],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 4,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "siemens_sdk_validation",
+          "canonical_description": "Validated functional requirements across C++, Java, and C# SDKs and documented API and control gaps.",
+          "actions": [
+            "validated",
+            "documented"
+          ],
+          "objects": [
+            "functional requirements",
+            "C++ SDK",
+            "Java SDK",
+            "C# SDK",
+            "API gaps",
+            "control gaps"
+          ],
+          "technologies": [
+            "C++",
+            "Java",
+            "C#"
+          ],
+          "stakeholders": [],
+          "competency_tags": [
+            "requirements_validation",
+            "testing",
+            "software_engineering"
+          ],
+          "domain_tags": [
+            "software"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 4,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "siemens_testing_release_readiness",
+          "canonical_description": "Strengthened testing consistency and release readiness for SDK releases.",
+          "actions": [
+            "strengthened"
+          ],
+          "objects": [
+            "testing consistency",
+            "release readiness"
+          ],
+          "technologies": [],
+          "stakeholders": [],
+          "competency_tags": [
+            "testing",
+            "requirements_validation",
+            "software_engineering"
+          ],
+          "domain_tags": [
+            "software"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 3,
+          "fact_status": "completed"
+        }
+      ],
+      "entry_status": "past"
+    },
+    {
+      "entry_id": "jlf_2026",
+      "section": "experience",
+      "organization": "John Locke Foundation",
+      "location": "Raleigh, NC",
+      "title": "Operations Intern",
+      "dates": "Fall 2026",
+      "future": true,
+      "facts": [
+        {
+          "fact_id": "jlf_ai_workflows",
+          "canonical_description": "Develop AI-enabled operations workflows using ML and LLM integration to support financial reporting and grant-allocation decisions.",
+          "actions": [
+            "develop"
+          ],
+          "objects": [
+            "AI-enabled operations workflows",
+            "financial reporting",
+            "grant-allocation decisions"
+          ],
+          "technologies": [
+            "Python",
+            "ML",
+            "LLM integration"
+          ],
+          "stakeholders": [
+            "management"
+          ],
+          "competency_tags": [
+            "workflow_automation",
+            "ai_llm",
+            "implementation",
+            "decision_support"
+          ],
+          "domain_tags": [
+            "public_policy",
+            "enterprise_ai"
+          ],
+          "metrics": [],
+          "approved_terms": [
+            "AI-enabled workflows"
+          ],
+          "forbidden_inferences": [
+            "deployed AI workflows",
+            "implemented automation"
+          ],
+          "evidence_strength": 3,
+          "fact_status": "planned"
+        },
+        {
+          "fact_id": "jlf_data_pipelines",
+          "canonical_description": "Build data pipelines and reporting tools for fundraising and operational data analysis.",
+          "actions": [
+            "build"
+          ],
+          "objects": [
+            "data pipelines",
+            "reporting tools",
+            "fundraising data",
+            "operational data"
+          ],
+          "technologies": [
+            "Python",
+            "SQL"
+          ],
+          "stakeholders": [
+            "management"
+          ],
+          "competency_tags": [
+            "data_analysis",
+            "data_modeling",
+            "workflow_automation"
+          ],
+          "domain_tags": [
+            "public_policy",
+            "data"
+          ],
+          "metrics": [],
+          "approved_terms": [
+            "data-access pipeline",
+            "data pipeline",
+            "data sourcing",
+            "data structuring"
+          ],
+          "forbidden_inferences": [
+            "real-time pipeline",
+            "enterprise data warehouse",
+            "production data pipelines"
+          ],
+          "evidence_strength": 3,
+          "fact_status": "planned"
+        },
+        {
+          "fact_id": "jlf_financial_reporting",
+          "canonical_description": "Support financial reporting and grant-allocation decisions with quantitative analysis.",
+          "actions": [
+            "support"
+          ],
+          "objects": [
+            "financial reporting",
+            "grant-allocation decisions",
+            "quantitative analysis"
+          ],
+          "technologies": [
+            "Excel",
+            "Python"
+          ],
+          "stakeholders": [
+            "management"
+          ],
+          "competency_tags": [
+            "financial_analysis",
+            "decision_support",
+            "quantitative_analysis"
+          ],
+          "domain_tags": [
+            "public_policy",
+            "finance"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [
+            "delivered grant-allocation decisions",
+            "improved financial reporting"
+          ],
+          "evidence_strength": 3,
+          "fact_status": "planned"
+        },
+        {
+          "fact_id": "jlf_management_recommendations",
+          "canonical_description": "Translate operational data into recommendations for leadership.",
+          "actions": [
+            "translate",
+            "recommend"
+          ],
+          "objects": [
+            "operational data",
+            "recommendations for leadership"
+          ],
+          "technologies": [],
+          "stakeholders": [
+            "leadership"
+          ],
+          "competency_tags": [
+            "communication",
+            "decision_support",
+            "stakeholder_management",
+            "data_analysis"
+          ],
+          "domain_tags": [
+            "public_policy"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [
+            "counseled leadership on strategy"
+          ],
+          "evidence_strength": 3,
+          "fact_status": "planned"
+        }
+      ],
+      "entry_status": "incoming"
+    },
+    {
+      "entry_id": "public_policy_board",
+      "section": "leadership",
+      "organization": "UNC Department of Public Policy",
+      "location": "Chapel Hill, NC",
+      "title": "Representative to Faculty and Planning Board",
+      "dates": "2025-Present",
+      "facts": [
+        {
+          "fact_id": "pubpol_priority_evaluation",
+          "canonical_description": "Evaluated grant, scholarship, and departmental resource-allocation priorities and compared competing funding needs.",
+          "actions": [
+            "evaluated",
+            "compared"
+          ],
+          "objects": [
+            "grant priorities",
+            "scholarship priorities",
+            "departmental resource-allocation priorities",
+            "competing funding needs"
+          ],
+          "technologies": [],
+          "stakeholders": [
+            "faculty"
+          ],
+          "competency_tags": [
+            "resource_allocation",
+            "financial_analysis",
+            "quantitative_analysis",
+            "research"
+          ],
+          "domain_tags": [
+            "public_policy",
+            "education"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 3,
+          "fact_status": "in_progress"
+        },
+        {
+          "fact_id": "pubpol_budget_analysis",
+          "canonical_description": "Conducted quantitative resource-allocation and budget analysis to support faculty planning and departmental growth decisions.",
+          "actions": [
+            "conducted",
+            "analyzed"
+          ],
+          "objects": [
+            "resource-allocation analysis",
+            "budget analysis",
+            "departmental growth decisions"
+          ],
+          "technologies": [],
+          "stakeholders": [
+            "faculty",
+            "departmental leadership"
+          ],
+          "competency_tags": [
+            "quantitative_analysis",
+            "financial_analysis",
+            "resource_allocation",
+            "budget_management"
+          ],
+          "domain_tags": [
+            "public_policy",
+            "education"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 3,
+          "fact_status": "in_progress"
+        },
+        {
+          "fact_id": "pubpol_faculty_presentation",
+          "canonical_description": "Presented findings, stakeholder tradeoffs, and recommendations to faculty and departmental leadership.",
+          "actions": [
+            "presented"
+          ],
+          "objects": [
+            "findings",
+            "stakeholder tradeoffs",
+            "recommendations"
+          ],
+          "technologies": [],
+          "stakeholders": [
+            "faculty",
+            "departmental leadership"
+          ],
+          "competency_tags": [
+            "presentation",
+            "communication",
+            "stakeholder_management",
+            "decision_support"
+          ],
+          "domain_tags": [
+            "public_policy",
+            "education"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 3,
+          "fact_status": "in_progress"
+        }
+      ],
+      "entry_status": "current"
+    },
+    {
+      "entry_id": "mock_trial",
+      "section": "leadership",
+      "organization": "Carolina Mock Trial Team",
+      "location": "Chapel Hill, NC",
+      "title": "Team Captain; Lead Attorney; AI Tools Lead",
+      "dates": "2025-Present",
+      "facts": [
+        {
+          "fact_id": "mock_trial_first_place",
+          "canonical_description": "Led the team to first place at the 2025 Invitational.",
+          "actions": [
+            "led"
+          ],
+          "objects": [
+            "team",
+            "2025 Invitational",
+            "first place"
+          ],
+          "technologies": [],
+          "stakeholders": [
+            "team members"
+          ],
+          "competency_tags": [
+            "leadership",
+            "teamwork"
+          ],
+          "domain_tags": [
+            "legal",
+            "education"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 5,
+          "fact_status": "completed"
+        },
+        {
+          "fact_id": "mock_trial_budget",
+          "canonical_description": "Managed a team budget exceeding $5,000.",
+          "actions": [
+            "managed"
+          ],
+          "objects": [
+            "team budget"
+          ],
+          "technologies": [],
+          "stakeholders": [
+            "team"
+          ],
+          "competency_tags": [
+            "budget_management"
+          ],
+          "domain_tags": [
+            "legal",
+            "education"
+          ],
+          "metrics": [
+            "mock_trial_budget"
+          ],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 4,
+          "fact_status": "in_progress"
+        },
+        {
+          "fact_id": "mock_trial_members",
+          "canonical_description": "Trained and coordinated more than 30 team members, assigning workstreams and directing preparation strategy.",
+          "actions": [
+            "trained",
+            "coordinated",
+            "assigned",
+            "directed"
+          ],
+          "objects": [
+            "30+ team members",
+            "workstreams",
+            "preparation strategy"
+          ],
+          "technologies": [],
+          "stakeholders": [
+            "team members"
+          ],
+          "competency_tags": [
+            "leadership",
+            "teamwork",
+            "stakeholder_management"
+          ],
+          "domain_tags": [
+            "legal",
+            "education"
+          ],
+          "metrics": [
+            "mock_trial_members"
+          ],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 4,
+          "fact_status": "in_progress"
+        },
+        {
+          "fact_id": "mock_trial_evidence_synthesis",
+          "canonical_description": "Synthesized complex and conflicting evidence into structured case strategies.",
+          "actions": [
+            "synthesized"
+          ],
+          "objects": [
+            "complex evidence",
+            "conflicting evidence",
+            "case strategies"
+          ],
+          "technologies": [],
+          "stakeholders": [],
+          "competency_tags": [
+            "legal_analysis",
+            "document_analysis",
+            "research",
+            "communication"
+          ],
+          "domain_tags": [
+            "legal",
+            "education"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 4,
+          "fact_status": "in_progress"
+        },
+        {
+          "fact_id": "mock_trial_oral_advocacy",
+          "canonical_description": "Delivered persuasive presentations and oral arguments under competitive time constraints.",
+          "actions": [
+            "delivered",
+            "argued",
+            "presented"
+          ],
+          "objects": [
+            "persuasive presentations",
+            "oral arguments"
+          ],
+          "technologies": [],
+          "stakeholders": [],
+          "competency_tags": [
+            "presentation",
+            "communication",
+            "legal_analysis"
+          ],
+          "domain_tags": [
+            "legal",
+            "education"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 4,
+          "fact_status": "in_progress"
+        },
+        {
+          "fact_id": "mock_trial_rag",
+          "canonical_description": "Built an AI-assisted case research and analysis system using Python and retrieval-augmented generation to organize evidence and accelerate case preparation.",
+          "actions": [
+            "built"
+          ],
+          "objects": [
+            "AI-assisted case research system",
+            "evidence organization",
+            "case preparation"
+          ],
+          "technologies": [
+            "Python",
+            "retrieval-augmented generation"
+          ],
+          "stakeholders": [
+            "team members"
+          ],
+          "competency_tags": [
+            "ai_llm",
+            "software_engineering",
+            "document_analysis",
+            "data_modeling"
+          ],
+          "domain_tags": [
+            "legal",
+            "education",
+            "enterprise_ai"
+          ],
+          "metrics": [],
+          "approved_terms": [
+            "AI-assisted case research",
+            "case analysis system"
+          ],
+          "forbidden_inferences": [],
+          "evidence_strength": 4,
+          "fact_status": "in_progress"
+        },
+        {
+          "fact_id": "mock_trial_performance_tracking",
+          "canonical_description": "Created individualized data pipelines, performance dashboards, visualizations, and interactive modules to identify preparation gaps and track progress.",
+          "actions": [
+            "created"
+          ],
+          "objects": [
+            "data pipelines",
+            "performance dashboards",
+            "visualizations",
+            "interactive modules",
+            "preparation gaps"
+          ],
+          "technologies": [
+            "Python"
+          ],
+          "stakeholders": [
+            "team members"
+          ],
+          "competency_tags": [
+            "data_visualization",
+            "data_analysis",
+            "software_engineering",
+            "workflow_automation"
+          ],
+          "domain_tags": [
+            "legal",
+            "education"
+          ],
+          "metrics": [],
+          "approved_terms": [],
+          "forbidden_inferences": [],
+          "evidence_strength": 4,
+          "fact_status": "in_progress"
+        }
+      ],
+      "entry_status": "current"
+    }
+  ],
+  "metrics": [
+    {
+      "metric_id": "siemens_savings",
+      "value": "$6M",
+      "relationship": "up_to",
+      "status": "identified",
+      "description": "potential savings in enterprise AI spend",
+      "locked": true
+    },
+    {
+      "metric_id": "siemens_token_reduction",
+      "value": "3 million tokens",
+      "relationship": "annual",
+      "status": "identified",
+      "description": "AI token spend reduction opportunity",
+      "locked": true
+    },
+    {
+      "metric_id": "siemens_engineering_hours",
+      "value": "300+",
+      "relationship": "monthly",
+      "status": "identified",
+      "description": "engineering hours savings opportunity",
+      "locked": true
+    },
+    {
+      "metric_id": "siemens_resolution_accuracy",
+      "value": "15%",
+      "relationship": "increase",
+      "status": "realized",
+      "description": "LLM resolution accuracy improvement",
+      "locked": true
+    },
+    {
+      "metric_id": "siemens_developer_users",
+      "value": "20+",
+      "relationship": "count",
+      "status": "realized",
+      "description": "developers using the triage tool daily",
+      "locked": true
+    },
+    {
+      "metric_id": "siemens_issues_resolved",
+      "value": "100+",
+      "relationship": "count",
+      "status": "realized",
+      "description": "cross-platform engineering issues resolved",
+      "locked": true
+    },
+    {
+      "metric_id": "siemens_backlog_reduction",
+      "value": "42%",
+      "relationship": "decrease",
+      "status": "realized",
+      "description": "engineering backlog reduction",
+      "locked": true
+    },
+    {
+      "metric_id": "mock_trial_budget",
+      "value": "$5,000+",
+      "relationship": "exceeding",
+      "status": "realized",
+      "description": "team budget managed",
+      "locked": true
+    },
+    {
+      "metric_id": "mock_trial_members",
+      "value": "30+",
+      "relationship": "count",
+      "status": "realized",
+      "description": "team members trained and coordinated",
+      "locked": true
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": "python",
+      "display_name": "Python",
+      "category": "technical",
+      "verified": true,
+      "proficiency": 5,
+      "evidence_fact_ids": [
+        "siemens_allocation_model",
+        "siemens_ai_triage",
+        "siemens_dashboard",
+        "mock_trial_rag",
+        "mock_trial_performance_tracking"
+      ],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "c",
+      "display_name": "C",
+      "category": "technical",
+      "verified": true,
+      "proficiency": 3,
+      "evidence_fact_ids": [
+        "siemens_issue_resolution"
+      ],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "cpp",
+      "display_name": "C++",
+      "category": "technical",
+      "verified": true,
+      "proficiency": 2,
+      "evidence_fact_ids": [
+        "siemens_sdk_validation"
+      ],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "java",
+      "display_name": "Java",
+      "category": "technical",
+      "verified": true,
+      "proficiency": 2,
+      "evidence_fact_ids": [
+        "siemens_sdk_validation"
+      ],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "csharp",
+      "display_name": "C#",
+      "category": "technical",
+      "verified": true,
+      "proficiency": 2,
+      "evidence_fact_ids": [
+        "siemens_sdk_validation"
+      ],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "jira",
+      "display_name": "Jira",
+      "category": "tool",
+      "verified": true,
+      "proficiency": 3,
+      "evidence_fact_ids": [
+        "siemens_ai_triage"
+      ],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "atlassian_mcp",
+      "display_name": "Atlassian MCP",
+      "category": "tool",
+      "verified": true,
+      "proficiency": 3,
+      "evidence_fact_ids": [
+        "siemens_ai_triage"
+      ],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "aws",
+      "display_name": "AWS",
+      "category": "platform",
+      "verified": true,
+      "proficiency": 2,
+      "evidence_fact_ids": [
+        "siemens_issue_resolution"
+      ],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "rag",
+      "display_name": "Retrieval-Augmented Generation (RAG)",
+      "category": "technical",
+      "verified": true,
+      "proficiency": 4,
+      "evidence_fact_ids": [
+        "mock_trial_rag"
+      ],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "stata",
+      "display_name": "Stata",
+      "category": "analytical",
+      "verified": true,
+      "proficiency": 3,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": [
+        "sciences_po_econometrics"
+      ]
+    },
+    {
+      "skill_id": "powerpoint",
+      "display_name": "PowerPoint",
+      "category": "business",
+      "verified": true,
+      "proficiency": 3,
+      "evidence_fact_ids": [
+        "siemens_exec_presentation"
+      ],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "sql",
+      "display_name": "SQL",
+      "category": "technical",
+      "verified": false,
+      "proficiency": 3,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "r",
+      "display_name": "R",
+      "category": "analytical",
+      "verified": false,
+      "proficiency": 3,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "pandas",
+      "display_name": "pandas",
+      "category": "technical",
+      "verified": false,
+      "proficiency": 3,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "numpy",
+      "display_name": "NumPy",
+      "category": "technical",
+      "verified": false,
+      "proficiency": 3,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "scikit_learn",
+      "display_name": "scikit-learn",
+      "category": "technical",
+      "verified": false,
+      "proficiency": 2,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "pytorch",
+      "display_name": "PyTorch",
+      "category": "technical",
+      "verified": false,
+      "proficiency": 2,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "tensorflow",
+      "display_name": "TensorFlow",
+      "category": "technical",
+      "verified": false,
+      "proficiency": 2,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "excel",
+      "display_name": "Excel",
+      "category": "business",
+      "verified": false,
+      "proficiency": 3,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "confluence",
+      "display_name": "Confluence",
+      "category": "tool",
+      "verified": false,
+      "proficiency": 2,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "word",
+      "display_name": "Word",
+      "category": "business",
+      "verified": false,
+      "proficiency": 3,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "git",
+      "display_name": "Git",
+      "category": "tool",
+      "verified": false,
+      "proficiency": 3,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "linux",
+      "display_name": "Linux",
+      "category": "platform",
+      "verified": false,
+      "proficiency": 2,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "unix",
+      "display_name": "Unix",
+      "category": "platform",
+      "verified": false,
+      "proficiency": 2,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "windows",
+      "display_name": "Windows",
+      "category": "platform",
+      "verified": false,
+      "proficiency": 2,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "machine_learning",
+      "display_name": "Machine Learning",
+      "category": "methodology",
+      "verified": false,
+      "proficiency": 2,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "prompt_engineering",
+      "display_name": "Prompt Engineering",
+      "category": "methodology",
+      "verified": false,
+      "proficiency": 2,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "workflow_automation",
+      "display_name": "Workflow Automation",
+      "category": "methodology",
+      "verified": false,
+      "proficiency": 2,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "process_design",
+      "display_name": "Process Design",
+      "category": "methodology",
+      "verified": false,
+      "proficiency": 2,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    },
+    {
+      "skill_id": "requirements_management",
+      "display_name": "Product Requirements Management",
+      "category": "methodology",
+      "verified": false,
+      "proficiency": 2,
+      "evidence_fact_ids": [],
+      "education_evidence_ids": []
+    }
+  ]
+}

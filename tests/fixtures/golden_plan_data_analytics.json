@@ -1,0 +1,853 @@
+{
+  "additional": {
+    "budget_lines": 2,
+    "coursework_line_competency_ids": [
+      "data_analysis"
+    ],
+    "skills_line_skill_ids": [
+      "python",
+      "c",
+      "aws",
+      "atlassian_mcp",
+      "jira",
+      "rag",
+      "csharp",
+      "cpp",
+      "java",
+      "stata",
+      "powerpoint"
+    ]
+  },
+  "coverage": {
+    "_guard": {
+      "candidate_min_level": "strong",
+      "max_acceptable_selected_level": "weak",
+      "min_weight": 0.4
+    },
+    "candidate_possible": {
+      "moderate": [],
+      "none": [],
+      "strong": [
+        "data_analysis",
+        "data_cleaning",
+        "data_visualization",
+        "sql_querying",
+        "presenting_to_stakeholders",
+        "financial_reporting"
+      ],
+      "weak": []
+    },
+    "competencies": [
+      {
+        "candidate_best_fact_id": "siemens_allocation_model",
+        "candidate_level": "strong",
+        "competency_id": "data_analysis",
+        "gap": "none",
+        "rank": 1,
+        "selected_facts": [
+          "jlf_management_recommendations"
+        ],
+        "selected_level": "strong",
+        "target_level": "strong",
+        "weight": 0.9
+      },
+      {
+        "candidate_best_fact_id": "siemens_allocation_model",
+        "candidate_level": "strong",
+        "competency_id": "data_cleaning",
+        "gap": "none",
+        "rank": 2,
+        "selected_facts": [
+          "jlf_management_recommendations"
+        ],
+        "selected_level": "strong",
+        "target_level": "strong",
+        "weight": 0.6
+      },
+      {
+        "candidate_best_fact_id": "mock_trial_performance_tracking",
+        "candidate_level": "strong",
+        "competency_id": "data_visualization",
+        "gap": "none",
+        "rank": 3,
+        "selected_facts": [
+          "siemens_dashboard"
+        ],
+        "selected_level": "strong",
+        "target_level": "strong",
+        "weight": 0.5
+      },
+      {
+        "candidate_best_fact_id": "siemens_allocation_model",
+        "candidate_level": "strong",
+        "competency_id": "sql_querying",
+        "gap": "none",
+        "rank": 4,
+        "selected_facts": [
+          "jlf_management_recommendations",
+          "siemens_dashboard"
+        ],
+        "selected_level": "strong",
+        "target_level": "strong",
+        "weight": 0.5
+      },
+      {
+        "candidate_best_fact_id": "mock_trial_oral_advocacy",
+        "candidate_level": "strong",
+        "competency_id": "presenting_to_stakeholders",
+        "gap": "none",
+        "rank": 5,
+        "selected_facts": [
+          "jlf_management_recommendations",
+          "mock_trial_members",
+          "pubpol_faculty_presentation"
+        ],
+        "selected_level": "strong",
+        "target_level": "strong",
+        "weight": 0.4
+      },
+      {
+        "candidate_best_fact_id": "siemens_allocation_model",
+        "candidate_level": "strong",
+        "competency_id": "financial_reporting",
+        "gap": "none",
+        "rank": 6,
+        "selected_facts": [
+          "jlf_financial_reporting",
+          "mock_trial_budget",
+          "pubpol_budget_analysis"
+        ],
+        "selected_level": "strong",
+        "target_level": "moderate",
+        "weight": 0.3
+      }
+    ],
+    "coverage_loss": [],
+    "selected": {
+      "moderate": [],
+      "none": [],
+      "strong": [
+        "data_analysis",
+        "data_cleaning",
+        "data_visualization",
+        "sql_querying",
+        "presenting_to_stakeholders",
+        "financial_reporting"
+      ],
+      "weak": []
+    }
+  },
+  "education": [
+    {
+      "date": "June 2028",
+      "degree": "Bachelor of Science in Business Administration and Computer Science",
+      "education_id": "unc",
+      "excluded_detail_ids": [],
+      "institution": "University of North Carolina at Chapel Hill | Kenan-Flagler Business School",
+      "location": "Chapel Hill, NC",
+      "rationale": "all details selected",
+      "selected_coursework_tags": [],
+      "selected_detail_ids": [
+        "unc_gpa",
+        "unc_honors",
+        "unc_sat"
+      ]
+    },
+    {
+      "date": "2025",
+      "degree": "Certificate in Economics",
+      "education_id": "sciences_po",
+      "excluded_detail_ids": [],
+      "institution": "Paris Institute of Political Studies (Sciences Po)",
+      "location": "Paris, France",
+      "rationale": "all details selected; coursework tagged to JD competencies",
+      "selected_coursework_tags": [
+        "data_analysis"
+      ],
+      "selected_detail_ids": [
+        "sciences_po_econometrics"
+      ]
+    }
+  ],
+  "excluded_evidence": [
+    {
+      "entry_id": "jlf_2026",
+      "explanation": "bested by selected fact 'jlf_financial_reporting' in the same entry",
+      "fact_id": "jlf_ai_workflows",
+      "reason": "WEAKER_ALTERNATIVE"
+    },
+    {
+      "entry_id": "jlf_2026",
+      "explanation": "overlaps selected fact 'jlf_management_recommendations' (jaccard 0.75)",
+      "fact_id": "jlf_data_pipelines",
+      "reason": "REDUNDANT"
+    },
+    {
+      "entry_id": "mock_trial",
+      "explanation": "section bullet budget reached",
+      "fact_id": "mock_trial_evidence_synthesis",
+      "reason": "SPACE_CONSTRAINT"
+    },
+    {
+      "entry_id": "mock_trial",
+      "explanation": "section bullet budget reached",
+      "fact_id": "mock_trial_oral_advocacy",
+      "reason": "SPACE_CONSTRAINT"
+    },
+    {
+      "entry_id": "mock_trial",
+      "explanation": "overlaps selected fact 'jlf_management_recommendations' (jaccard 0.6)",
+      "fact_id": "mock_trial_performance_tracking",
+      "reason": "REDUNDANT"
+    },
+    {
+      "entry_id": "mock_trial",
+      "explanation": "section bullet budget reached",
+      "fact_id": "mock_trial_rag",
+      "reason": "SPACE_CONSTRAINT"
+    },
+    {
+      "entry_id": "public_policy_board",
+      "explanation": "bested by selected fact 'pubpol_faculty_presentation' in the same entry",
+      "fact_id": "pubpol_priority_evaluation",
+      "reason": "WEAKER_ALTERNATIVE"
+    },
+    {
+      "entry_id": "siemens_2026",
+      "explanation": "overlaps selected fact 'jlf_management_recommendations' (jaccard 0.6)",
+      "fact_id": "siemens_allocation_model",
+      "reason": "REDUNDANT"
+    },
+    {
+      "entry_id": "siemens_2026",
+      "explanation": "bested by selected fact 'siemens_ai_triage' in the same entry",
+      "fact_id": "siemens_engineering_hours",
+      "reason": "WEAKER_ALTERNATIVE"
+    },
+    {
+      "entry_id": "siemens_2026",
+      "explanation": "section bullet budget reached",
+      "fact_id": "siemens_exec_presentation",
+      "reason": "SPACE_CONSTRAINT"
+    },
+    {
+      "entry_id": "siemens_2026",
+      "explanation": "bested by selected fact 'siemens_ai_triage' in the same entry",
+      "fact_id": "siemens_impact_award",
+      "reason": "WEAKER_ALTERNATIVE"
+    },
+    {
+      "entry_id": "siemens_2026",
+      "explanation": "section bullet budget reached",
+      "fact_id": "siemens_savings_analysis",
+      "reason": "SPACE_CONSTRAINT"
+    },
+    {
+      "entry_id": "siemens_2026",
+      "explanation": "bested by selected fact 'siemens_ai_triage' in the same entry",
+      "fact_id": "siemens_sdk_validation",
+      "reason": "WEAKER_ALTERNATIVE"
+    },
+    {
+      "entry_id": "siemens_2026",
+      "explanation": "bested by selected fact 'siemens_ai_triage' in the same entry",
+      "fact_id": "siemens_testing_release_readiness",
+      "reason": "WEAKER_ALTERNATIVE"
+    },
+    {
+      "entry_id": "siemens_2026",
+      "explanation": "bested by selected fact 'siemens_dashboard' in the same entry",
+      "fact_id": "siemens_token_optimization",
+      "reason": "WEAKER_ALTERNATIVE"
+    },
+    {
+      "entry_id": "siemens_2026",
+      "explanation": "overlaps selected fact 'jlf_management_recommendations' (jaccard 0.75)",
+      "fact_id": "siemens_usage_analysis",
+      "reason": "REDUNDANT"
+    }
+  ],
+  "experience": [
+    {
+      "aggregate_relevance": 3.05,
+      "bullet_slots": [
+        {
+          "components": {
+            "differentiation": 0.0,
+            "evidence_quality": 0.4,
+            "metric_bonus": 0.0,
+            "new_competency_coverage": 0.05,
+            "redundancy_penalty": -0.0,
+            "section_prior": 1.0,
+            "skill_support": 0.0
+          },
+          "marginal_score": 0.45,
+          "primary_competency_ids": [
+            "data_visualization",
+            "sql_querying"
+          ],
+          "primary_fact_id": "siemens_dashboard",
+          "priority": 1,
+          "rationale": "siemens_dashboard: targets data_visualization, sql_querying",
+          "secondary_competency_ids": [],
+          "slot_id": "siemens_2026#1",
+          "supporting_fact_ids": [],
+          "target_terms": [
+            "Python"
+          ],
+          "targeted_metrics": []
+        },
+        {
+          "components": {
+            "differentiation": 0.0,
+            "evidence_quality": 0.5,
+            "metric_bonus": 0.4,
+            "new_competency_coverage": 0.0,
+            "redundancy_penalty": -0.0,
+            "section_prior": 1.0,
+            "skill_support": 0.0
+          },
+          "marginal_score": 0.9,
+          "primary_competency_ids": [],
+          "primary_fact_id": "siemens_ai_triage",
+          "priority": 2,
+          "rationale": "siemens_ai_triage: no primary JD competency match; carries metrics",
+          "secondary_competency_ids": [],
+          "slot_id": "siemens_2026#2",
+          "supporting_fact_ids": [],
+          "target_terms": [
+            "AI-powered Jira triage workflow",
+            "error-log triage",
+            "service-outage triage",
+            "Python",
+            "Jira",
+            "Atlassian MCP"
+          ],
+          "targeted_metrics": [
+            {
+              "metric_id": "siemens_resolution_accuracy",
+              "status": "realized",
+              "value": "15%"
+            },
+            {
+              "metric_id": "siemens_developer_users",
+              "status": "realized",
+              "value": "20+"
+            }
+          ]
+        },
+        {
+          "components": {
+            "differentiation": 0.0,
+            "evidence_quality": 0.5,
+            "metric_bonus": 0.4,
+            "new_competency_coverage": 0.0,
+            "redundancy_penalty": -0.0,
+            "section_prior": 1.0,
+            "skill_support": 0.0
+          },
+          "marginal_score": 0.9,
+          "primary_competency_ids": [],
+          "primary_fact_id": "siemens_issue_resolution",
+          "priority": 3,
+          "rationale": "siemens_issue_resolution: no primary JD competency match; carries metrics",
+          "secondary_competency_ids": [],
+          "slot_id": "siemens_2026#3",
+          "supporting_fact_ids": [],
+          "target_terms": [
+            "C",
+            "AWS"
+          ],
+          "targeted_metrics": [
+            {
+              "metric_id": "siemens_issues_resolved",
+              "status": "realized",
+              "value": "100+"
+            }
+          ]
+        },
+        {
+          "components": {
+            "differentiation": 0.0,
+            "evidence_quality": 0.4,
+            "metric_bonus": 0.4,
+            "new_competency_coverage": 0.0,
+            "redundancy_penalty": -0.0,
+            "section_prior": 1.0,
+            "skill_support": 0.0
+          },
+          "marginal_score": 0.8,
+          "primary_competency_ids": [],
+          "primary_fact_id": "siemens_backlog_reduction",
+          "priority": 4,
+          "rationale": "siemens_backlog_reduction: no primary JD competency match; carries metrics",
+          "secondary_competency_ids": [],
+          "slot_id": "siemens_2026#4",
+          "supporting_fact_ids": [],
+          "target_terms": [],
+          "targeted_metrics": [
+            {
+              "metric_id": "siemens_backlog_reduction",
+              "status": "realized",
+              "value": "42%"
+            }
+          ]
+        }
+      ],
+      "dates": "Summer 2026",
+      "entry_id": "siemens_2026",
+      "entry_score": {
+        "quality_bonus": 0.2,
+        "role_family_bonus": 0.5,
+        "second_fact": 1.875,
+        "third_fact": 1.5563,
+        "top_fact": 2.6,
+        "total": 5.3128,
+        "unique_coverage_bonus": 0.0
+      },
+      "entry_status": "past",
+      "location": "Charlotte, NC",
+      "organization": "Siemens Digital Industries Software",
+      "section": "experience",
+      "title": "Software Engineering and AI Intern"
+    },
+    {
+      "aggregate_relevance": 0.8,
+      "bullet_slots": [
+        {
+          "components": {
+            "differentiation": 0.0,
+            "evidence_quality": 0.3,
+            "metric_bonus": 0.0,
+            "new_competency_coverage": 0.2,
+            "redundancy_penalty": -0.0,
+            "section_prior": 1.0,
+            "skill_support": 0.0
+          },
+          "marginal_score": 0.5,
+          "primary_competency_ids": [
+            "data_analysis",
+            "data_cleaning"
+          ],
+          "primary_fact_id": "jlf_management_recommendations",
+          "priority": 1,
+          "rationale": "jlf_management_recommendations: targets data_analysis, data_cleaning",
+          "secondary_competency_ids": [
+            "presenting_to_stakeholders",
+            "sql_querying"
+          ],
+          "slot_id": "jlf_2026#1",
+          "supporting_fact_ids": [],
+          "target_terms": [],
+          "targeted_metrics": []
+        },
+        {
+          "components": {
+            "differentiation": 0.0,
+            "evidence_quality": 0.3,
+            "metric_bonus": 0.0,
+            "new_competency_coverage": 0.0,
+            "redundancy_penalty": -0.0,
+            "section_prior": 1.0,
+            "skill_support": 0.0
+          },
+          "marginal_score": 0.3,
+          "primary_competency_ids": [
+            "financial_reporting"
+          ],
+          "primary_fact_id": "jlf_financial_reporting",
+          "priority": 2,
+          "rationale": "jlf_financial_reporting: targets financial_reporting",
+          "secondary_competency_ids": [],
+          "slot_id": "jlf_2026#2",
+          "supporting_fact_ids": [],
+          "target_terms": [
+            "Excel",
+            "Python"
+          ],
+          "targeted_metrics": []
+        }
+      ],
+      "dates": "Fall 2026",
+      "entry_id": "jlf_2026",
+      "entry_score": {
+        "quality_bonus": 0.0,
+        "role_family_bonus": 0.4,
+        "second_fact": 2.26,
+        "third_fact": 1.02,
+        "top_fact": 2.71,
+        "total": 5.151,
+        "unique_coverage_bonus": 0.0
+      },
+      "entry_status": "incoming",
+      "location": "Raleigh, NC",
+      "organization": "John Locke Foundation",
+      "section": "experience",
+      "title": "Operations Intern"
+    }
+  ],
+  "generated_for": {
+    "company": "Vitane Analytics",
+    "competency_map_schema_version": "1.1",
+    "program_term": "Spring 2027",
+    "title": "Data Analyst Intern"
+  },
+  "leadership": [
+    {
+      "aggregate_relevance": 1.575,
+      "bullet_slots": [
+        {
+          "components": {
+            "differentiation": 0.0,
+            "evidence_quality": 0.4,
+            "metric_bonus": 0.4,
+            "new_competency_coverage": 0.0,
+            "redundancy_penalty": -0.0,
+            "section_prior": 0.75,
+            "skill_support": 0.0
+          },
+          "marginal_score": 0.6,
+          "primary_competency_ids": [
+            "presenting_to_stakeholders"
+          ],
+          "primary_fact_id": "mock_trial_members",
+          "priority": 1,
+          "rationale": "mock_trial_members: targets presenting_to_stakeholders; carries metrics",
+          "secondary_competency_ids": [],
+          "slot_id": "mock_trial#1",
+          "supporting_fact_ids": [],
+          "target_terms": [],
+          "targeted_metrics": [
+            {
+              "metric_id": "mock_trial_members",
+              "status": "realized",
+              "value": "30+"
+            }
+          ]
+        },
+        {
+          "components": {
+            "differentiation": 0.0,
+            "evidence_quality": 0.4,
+            "metric_bonus": 0.4,
+            "new_competency_coverage": 0.0,
+            "redundancy_penalty": -0.0,
+            "section_prior": 0.75,
+            "skill_support": 0.0
+          },
+          "marginal_score": 0.6,
+          "primary_competency_ids": [
+            "financial_reporting"
+          ],
+          "primary_fact_id": "mock_trial_budget",
+          "priority": 2,
+          "rationale": "mock_trial_budget: targets financial_reporting; carries metrics",
+          "secondary_competency_ids": [],
+          "slot_id": "mock_trial#2",
+          "supporting_fact_ids": [],
+          "target_terms": [],
+          "targeted_metrics": [
+            {
+              "metric_id": "mock_trial_budget",
+              "status": "realized",
+              "value": "$5,000+"
+            }
+          ]
+        },
+        {
+          "components": {
+            "differentiation": 0.0,
+            "evidence_quality": 0.5,
+            "metric_bonus": 0.0,
+            "new_competency_coverage": 0.0,
+            "redundancy_penalty": -0.0,
+            "section_prior": 0.75,
+            "skill_support": 0.0
+          },
+          "marginal_score": 0.375,
+          "primary_competency_ids": [],
+          "primary_fact_id": "mock_trial_first_place",
+          "priority": 3,
+          "rationale": "mock_trial_first_place: no primary JD competency match",
+          "secondary_competency_ids": [],
+          "slot_id": "mock_trial#3",
+          "supporting_fact_ids": [],
+          "target_terms": [],
+          "targeted_metrics": []
+        }
+      ],
+      "dates": "2025-Present",
+      "entry_id": "mock_trial",
+      "entry_score": {
+        "quality_bonus": 0.1,
+        "role_family_bonus": 0.5,
+        "second_fact": 1.26,
+        "third_fact": 1.0625,
+        "top_fact": 2.82,
+        "total": 4.7801,
+        "unique_coverage_bonus": 0.0
+      },
+      "entry_status": "current",
+      "location": "Chapel Hill, NC",
+      "organization": "Carolina Mock Trial Team",
+      "section": "leadership",
+      "title": "Team Captain; Lead Attorney; AI Tools Lead"
+    },
+    {
+      "aggregate_relevance": 0.45,
+      "bullet_slots": [
+        {
+          "components": {
+            "differentiation": 0.0,
+            "evidence_quality": 0.3,
+            "metric_bonus": 0.0,
+            "new_competency_coverage": 0.0,
+            "redundancy_penalty": -0.0,
+            "section_prior": 0.75,
+            "skill_support": 0.0
+          },
+          "marginal_score": 0.225,
+          "primary_competency_ids": [
+            "presenting_to_stakeholders"
+          ],
+          "primary_fact_id": "pubpol_faculty_presentation",
+          "priority": 1,
+          "rationale": "pubpol_faculty_presentation: targets presenting_to_stakeholders",
+          "secondary_competency_ids": [],
+          "slot_id": "public_policy_board#1",
+          "supporting_fact_ids": [],
+          "target_terms": [],
+          "targeted_metrics": []
+        },
+        {
+          "components": {
+            "differentiation": 0.0,
+            "evidence_quality": 0.3,
+            "metric_bonus": 0.0,
+            "new_competency_coverage": 0.0,
+            "redundancy_penalty": -0.0,
+            "section_prior": 0.75,
+            "skill_support": 0.0
+          },
+          "marginal_score": 0.225,
+          "primary_competency_ids": [
+            "financial_reporting"
+          ],
+          "primary_fact_id": "pubpol_budget_analysis",
+          "priority": 2,
+          "rationale": "pubpol_budget_analysis: targets financial_reporting",
+          "secondary_competency_ids": [],
+          "slot_id": "public_policy_board#2",
+          "supporting_fact_ids": [],
+          "target_terms": [],
+          "targeted_metrics": []
+        }
+      ],
+      "dates": "2025-Present",
+      "entry_id": "public_policy_board",
+      "entry_score": {
+        "quality_bonus": 0.0,
+        "role_family_bonus": 0.1,
+        "second_fact": 0.7,
+        "third_fact": 0.7,
+        "top_fact": 1.3,
+        "total": 2.205,
+        "unique_coverage_bonus": 0.0
+      },
+      "entry_status": "current",
+      "location": "Chapel Hill, NC",
+      "organization": "UNC Department of Public Policy",
+      "section": "leadership",
+      "title": "Representative to Faculty and Planning Board"
+    }
+  ],
+  "provenance": {
+    "candidate_evidence_hash": "45d118d99a31a0949ec3f3668ee90d7bad5e5251e1a69cb6ce5fdd7dbe594509",
+    "evidence_match_hash": "ec2032f2884deebafa193c5e4e8f43992f7ff8140a18b20a60deb2a36ab1866f",
+    "plan_hash": "f9f1c7d5b007eb6ef7c7574fd169c446cacc78f52d13cc5dde040f35eb08b1a2",
+    "planner_config_hash": "b617e99c1f3356ada771b865a979d54247bed8833e97ed4a9ebe3b0b2510fd4c",
+    "planner_version": "1.0.0"
+  },
+  "schema_version": "1.0",
+  "skills": {
+    "excluded": [],
+    "selected_skills": [
+      {
+        "category": "technical",
+        "display_name": "Python",
+        "evidence_count": 5,
+        "jd_level": "mentioned",
+        "rationale": "requested tier-1 skill (mentioned); verified evidence=5",
+        "score": 0.96,
+        "selected_fact_support": true,
+        "skill_id": "python",
+        "verified": true
+      },
+      {
+        "category": "technical",
+        "display_name": "C",
+        "evidence_count": 1,
+        "jd_level": null,
+        "rationale": "verified differentiator; evidence=1",
+        "score": 0.792,
+        "selected_fact_support": true,
+        "skill_id": "c",
+        "verified": true
+      },
+      {
+        "category": "platform",
+        "display_name": "AWS",
+        "evidence_count": 1,
+        "jd_level": null,
+        "rationale": "verified differentiator; evidence=1",
+        "score": 0.792,
+        "selected_fact_support": true,
+        "skill_id": "aws",
+        "verified": true
+      },
+      {
+        "category": "tool",
+        "display_name": "Atlassian MCP",
+        "evidence_count": 1,
+        "jd_level": null,
+        "rationale": "verified differentiator; evidence=1",
+        "score": 0.792,
+        "selected_fact_support": true,
+        "skill_id": "atlassian_mcp",
+        "verified": true
+      },
+      {
+        "category": "tool",
+        "display_name": "Jira",
+        "evidence_count": 1,
+        "jd_level": null,
+        "rationale": "verified differentiator; evidence=1",
+        "score": 0.792,
+        "selected_fact_support": true,
+        "skill_id": "jira",
+        "verified": true
+      },
+      {
+        "category": "technical",
+        "display_name": "Retrieval-Augmented Generation (RAG)",
+        "evidence_count": 1,
+        "jd_level": null,
+        "rationale": "verified differentiator; evidence=1",
+        "score": 0.66,
+        "selected_fact_support": false,
+        "skill_id": "rag",
+        "verified": true
+      },
+      {
+        "category": "technical",
+        "display_name": "C#",
+        "evidence_count": 1,
+        "jd_level": null,
+        "rationale": "verified differentiator; evidence=1",
+        "score": 0.66,
+        "selected_fact_support": false,
+        "skill_id": "csharp",
+        "verified": true
+      },
+      {
+        "category": "technical",
+        "display_name": "C++",
+        "evidence_count": 1,
+        "jd_level": null,
+        "rationale": "verified differentiator; evidence=1",
+        "score": 0.66,
+        "selected_fact_support": false,
+        "skill_id": "cpp",
+        "verified": true
+      },
+      {
+        "category": "technical",
+        "display_name": "Java",
+        "evidence_count": 1,
+        "jd_level": null,
+        "rationale": "verified differentiator; evidence=1",
+        "score": 0.66,
+        "selected_fact_support": false,
+        "skill_id": "java",
+        "verified": true
+      },
+      {
+        "category": "analytical",
+        "display_name": "Stata",
+        "evidence_count": 1,
+        "jd_level": null,
+        "rationale": "verified differentiator; evidence=1",
+        "score": 0.66,
+        "selected_fact_support": false,
+        "skill_id": "stata",
+        "verified": true
+      },
+      {
+        "category": "business",
+        "display_name": "PowerPoint",
+        "evidence_count": 1,
+        "jd_level": null,
+        "rationale": "verified differentiator; evidence=1",
+        "score": 0.66,
+        "selected_fact_support": false,
+        "skill_id": "powerpoint",
+        "verified": true
+      }
+    ],
+    "unsupported_requested": [
+      {
+        "canonical_term": "SQL",
+        "skill_id": "sql",
+        "status": "unsupported"
+      },
+      {
+        "canonical_term": "Excel",
+        "skill_id": "excel",
+        "status": "unsupported"
+      },
+      {
+        "canonical_term": "Tableau",
+        "skill_id": null,
+        "status": "not_in_bank"
+      }
+    ]
+  },
+  "summary": {
+    "bullet_slots": 11,
+    "competencies_covered_moderate": [],
+    "competencies_covered_strong": [
+      "data_analysis",
+      "data_cleaning",
+      "data_visualization",
+      "sql_querying",
+      "presenting_to_stakeholders",
+      "financial_reporting"
+    ],
+    "future_facts_selected": [
+      "jlf_management_recommendations",
+      "jlf_financial_reporting"
+    ],
+    "high_priority_supported_omitted": [],
+    "redundant_facts_rejected": [
+      "jlf_data_pipelines",
+      "mock_trial_performance_tracking",
+      "siemens_allocation_model",
+      "siemens_usage_analysis"
+    ],
+    "selected_experience_entries": [
+      "siemens_2026",
+      "jlf_2026"
+    ],
+    "selected_leadership_entries": [
+      "mock_trial",
+      "public_policy_board"
+    ],
+    "unsupported_skills_excluded": [
+      "SQL",
+      "Excel",
+      "Tableau"
+    ]
+  },
+  "supporting_facts": [],
+  "warnings": []
+}

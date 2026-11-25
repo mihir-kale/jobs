@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CandidateEvidenceBank",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "candidate",
+    "education",
+    "entries",
+    "metrics",
+    "skills"
+  ],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "location": { "type": "string" },
+        "linkedin": { "type": "string" }
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["education_id", "institution", "location", "date", "degree", "details"],
+        "properties": {
+          "education_id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)*$" },
+          "institution": { "type": "string" },
+          "location": { "type": "string" },
+          "date": { "type": "string" },
+          "degree": { "type": "string" },
+          "details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["detail_id", "text", "locked"],
+              "properties": {
+                "detail_id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)*$" },
+                "text": { "type": "string" },
+                "locked": { "type": "boolean" },
+                "optional": { "type": "boolean", "default": false },
+                "detail_tags": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["entry_id", "section", "organization", "location", "title", "dates", "facts"],
+        "properties": {
+          "entry_id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)*$" },
+          "section": { "enum": ["experience", "leadership", "activity", "other"] },
+          "organization": { "type": "string" },
+          "location": { "type": "string" },
+          "title": { "type": "string" },
+          "dates": { "type": "string" },
+          "future": { "type": "boolean", "default": false },
+          "entry_status": { "enum": ["incoming", "current", "past"] },
+          "facts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "fact_id",
+                "canonical_description",
+                "actions",
+                "objects",
+                "technologies",
+                "stakeholders",
+                "competency_tags",
+                "domain_tags",
+                "metrics",
+                "approved_terms",
+                "forbidden_inferences",
+                "evidence_strength"
+              ],
+              "properties": {
+                "fact_id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)*$" },
+                "canonical_description": { "type": "string" },
+                "actions": { "type": "array", "items": { "type": "string" } },
+                "objects": { "type": "array", "items": { "type": "string" } },
+                "technologies": { "type": "array", "items": { "type": "string" } },
+                "stakeholders": { "type": "array", "items": { "type": "string" } },
+                "competency_tags": { "type": "array", "items": { "type": "string", "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)*$" } },
+                "domain_tags": { "type": "array", "items": { "type": "string", "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)*$" } },
+                "metrics": { "type": "array", "items": { "type": "string" } },
+                "approved_terms": { "type": "array", "items": { "type": "string" } },
+                "forbidden_inferences": { "type": "array", "items": { "type": "string" } },
+                "evidence_strength": { "type": "integer", "minimum": 1, "maximum": 5 },
+                "fact_status": { "enum": ["planned", "in_progress", "completed"] }
+              }
+            }
+          }
+        }
+      }
+    },
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["metric_id", "value", "status", "relationship", "description", "locked"],
+        "properties": {
+          "metric_id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)*$" },
+          "value": { "type": "string" },
+          "status": { "enum": ["realized", "identified", "estimated", "potential", "recommended", "implemented", "ongoing"] },
+          "relationship": { "enum": ["exact", "up_to", "exceeding", "increase", "decrease", "count", "annual", "monthly"] },
+          "description": { "type": "string" },
+          "locked": { "type": "boolean" }
+        }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["skill_id", "display_name", "category", "verified", "proficiency", "evidence_fact_ids", "education_evidence_ids"],
+        "properties": {
+          "skill_id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)*$" },
+          "display_name": { "type": "string" },
+          "category": { "enum": ["technical", "business", "communication", "methodology", "platform", "tool", "analytical"] },
+          "verified": { "type": "boolean" },
+          "proficiency": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "evidence_fact_ids": { "type": "array", "items": { "type": "string" } },
+          "education_evidence_ids": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

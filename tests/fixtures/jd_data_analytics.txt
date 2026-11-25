@@ -1,0 +1,19 @@
+Data Analyst Intern - Vitane Analytics (Spring 2027)
+
+As a Data Analyst Intern, you will support data analysis across core product teams. Daily work includes data cleaning of messy datasets, building data visualizations, and preparing data for KPI reporting.
+
+Responsibilities:
+- Perform data cleaning and data analysis using SQL and Excel.
+- Support financial reporting for the operations team.
+- Build interactive data visualizations and dashboards for stakeholders.
+- Present findings and recommendations to stakeholders.
+- Collaborate with stakeholders across teams.
+
+Qualifications:
+- Currently pursuing a Bachelor's degree in Business Analytics, Computer Science, or a related field.
+- Strong SQL and Excel skills.
+- Experience with Tableau preferred.
+- GPA 3.0 or higher.
+- Must have US work authorization.
+
+Nice to have: Python.

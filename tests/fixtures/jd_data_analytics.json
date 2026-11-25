@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.1",
+  "job_identity": {
+    "company": "Vitane Analytics",
+    "title": "Data Analyst Intern",
+    "locations": ["New York, NY"],
+    "employment_type": "Internship",
+    "program_term": "Spring 2027",
+    "seniority": "internship"
+  },
+  "role_summary": {
+    "primary_mandate": "Support data analysis, cleaning, visualization, SQL work, and financial reporting while presenting recommendations to stakeholders.",
+    "business_outcomes": ["Cleaner KPI reporting inputs", "Actionable stakeholder recommendations"]
+  },
+  "hard_qualifications": [
+    {
+      "category": "enrollment",
+      "requirement": "Currently pursuing a Bachelor's degree",
+      "level": "required",
+      "resume_visibility": "must_show_if_supported",
+      "evidence_quote": "Currently pursuing a Bachelor's degree in Business Analytics, Computer Science, or a related field."
+    },
+    {
+      "category": "degree",
+      "requirement": "Bachelor's degree in a quantitative field",
+      "level": "required",
+      "resume_visibility": "must_show_if_supported",
+      "evidence_quote": "Currently pursuing a Bachelor's degree in Business Analytics, Computer Science, or a related field."
+    },
+    {
+      "category": "major",
+      "requirement": "Business Analytics, Computer Science, or a related field",
+      "level": "required",
+      "resume_visibility": "helpful_if_supported",
+      "evidence_quote": "Currently pursuing a Bachelor's degree in Business Analytics, Computer Science, or a related field."
+    },
+    {
+      "category": "gpa",
+      "requirement": "GPA 3.0 or higher",
+      "level": "required",
+      "resume_visibility": "must_show_if_supported",
+      "evidence_quote": "GPA 3.0 or higher."
+    },
+    {
+      "category": "work_authorization",
+      "requirement": "Must have US work authorization",
+      "level": "required",
+      "resume_visibility": "application_only",
+      "evidence_quote": "Must have US work authorization."
+    }
+  ],
+  "tier_1_terms": [
+    {
+      "canonical_term": "SQL",
+      "exact_terms": ["SQL"],
+      "category": "database",
+      "level": "required",
+      "evidence_quotes": ["Strong SQL and Excel skills.", "using SQL and Excel"]
+    },
+    {
+      "canonical_term": "Excel",
+      "exact_terms": ["Excel"],
+      "category": "analytical_tool",
+      "level": "required",
+      "evidence_quotes": ["Strong SQL and Excel skills."]
+    },
+    {
+      "canonical_term": "Tableau",
+      "exact_terms": ["Tableau"],
+      "category": "analytical_tool",
+      "level": "preferred",
+      "evidence_quotes": ["Experience with Tableau preferred."]
+    },
+    {
+      "canonical_term": "Python",
+      "exact_terms": ["Python"],
+      "category": "programming_language",
+      "level": "mentioned",
+      "evidence_quotes": ["Nice to have: Python."]
+    }
+  ],
+  "tier_2_competencies": [
+    {
+      "competency_id": "data_analysis",
+      "rank": 1,
+      "competency": "Data Analysis",
+      "category": "responsibility",
+      "score": { "required_status": 2, "repetition": 2, "centrality": 3, "specificity": 2, "total": 9 },
+      "exact_jd_phrases": ["Perform data cleaning and data analysis using SQL and Excel."],
+      "evidence_quotes": ["support data analysis across core product teams"],
+      "resume_evidence_sought": ["analysis", "communication"]
+    },
+    {
+      "competency_id": "data_cleaning",
+      "rank": 2,
+      "competency": "Data Cleaning",
+      "category": "method",
+      "score": { "required_status": 2, "repetition": 1, "centrality": 2, "specificity": 1, "total": 6 },
+      "exact_jd_phrases": ["Daily work includes data cleaning of messy datasets"],
+      "evidence_quotes": ["data cleaning of messy datasets", "building data visualizations"],
+      "resume_evidence_sought": ["technical_implementation", "operational_improvement"]
+    },
+    {
+      "competency_id": "data_visualization",
+      "rank": 3,
+      "competency": "Data Visualization",
+      "category": "deliverable",
+      "score": { "required_status": 1, "repetition": 1, "centrality": 2, "specificity": 1, "total": 5 },
+      "exact_jd_phrases": ["Build interactive data visualizations and dashboards for stakeholders."],
+      "evidence_quotes": ["building data visualizations"],
+      "resume_evidence_sought": ["technical_implementation", "communication"]
+    },
+    {
+      "competency_id": "sql_querying",
+      "rank": 4,
+      "competency": "SQL Querying",
+      "category": "role_function",
+      "score": { "required_status": 2, "repetition": 1, "centrality": 1, "specificity": 1, "total": 5 },
+      "exact_jd_phrases": ["Strong SQL and Excel skills."],
+      "evidence_quotes": ["using SQL and Excel"],
+      "resume_evidence_sought": ["analysis"]
+    },
+    {
+      "competency_id": "presenting_to_stakeholders",
+      "rank": 5,
+      "competency": "Presenting to Stakeholders",
+      "category": "stakeholder_activity",
+      "score": { "required_status": 1, "repetition": 1, "centrality": 1, "specificity": 1, "total": 4 },
+      "exact_jd_phrases": ["Present findings and recommendations to stakeholders."],
+      "evidence_quotes": ["Present findings and recommendations to stakeholders."],
+      "resume_evidence_sought": ["communication", "recommendation"]
+    },
+    {
+      "competency_id": "financial_reporting",
+      "rank": 6,
+      "competency": "Financial Reporting",
+      "category": "responsibility",
+      "score": { "required_status": 0, "repetition": 1, "centrality": 1, "specificity": 1, "total": 3 },
+      "exact_jd_phrases": ["Support financial reporting for the operations team."],
+      "evidence_quotes": ["Support financial reporting for the operations team."],
+      "resume_evidence_sought": ["financial_impact", "analysis"]
+    }
+  ],
+  "behavioral_competencies": [
+    {
+      "competency": "Communication",
+      "level": "required",
+      "evidence_quote": "Present findings and recommendations to stakeholders."
+    },
+    {
+      "competency": "Stakeholder management",
+      "level": "preferred",
+      "evidence_quote": "Collaborate with stakeholders across teams."
+    },
+    {
+      "competency": "Teamwork and collaboration",
+      "level": "mentioned",
+      "evidence_quote": "Collaborate with stakeholders across teams."
+    }
+  ],
+  "ambiguities": []
+}

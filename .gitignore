@@ -1,0 +1,29 @@
+# Generated PDFs and content
+output/
+input/
+tests/*.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+.venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Vercel local link state
+.vercel
+
+# Credentials
+.env
+
+# Supabase local runtime state (not the config/migrations)
+supabase/.temp
+supabase/.branches
+supabase/.status

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "target": "evidence_matcher",
+  "description": "Human-maintained explicit links from a JD tier-2 competency_id to candidate evidence competency tags that are NOT literal name matches. A fact matches a competency with the configured coefficient when one of these tags appears on the fact. Candidate tags must come from the controlled vocabulary enforced by candidate_evidence_validator.py.",
+  "relationships": {
+    "data_cleaning": [
+      { "candidate_tag": "data_analysis", "weight": 0.6 },
+      { "candidate_tag": "data_sourcing", "weight": 0.6 }
+    ],
+    "sql_querying": [
+      { "candidate_tag": "data_analysis", "weight": 0.5 },
+      { "candidate_tag": "data_modeling", "weight": 0.4 }
+    ],
+    "presenting_to_stakeholders": [
+      { "candidate_tag": "presentation", "weight": 0.9 },
+      { "candidate_tag": "communication", "weight": 0.8 },
+      { "candidate_tag": "stakeholder_management", "weight": 0.7 }
+    ],
+    "financial_reporting": [
+      { "candidate_tag": "financial_analysis", "weight": 0.9 },
+      { "candidate_tag": "budget_management", "weight": 0.5 }
+    ],
+    "financial_modeling": [
+      { "candidate_tag": "financial_analysis", "weight": 0.8 },
+      { "candidate_tag": "data_modeling", "weight": 0.5 }
+    ],
+    "document_synthesis": [
+      { "candidate_tag": "document_analysis", "weight": 0.8 },
+      { "candidate_tag": "research", "weight": 0.6 }
+    ],
+    "expert_presentations": [
+      { "candidate_tag": "presentation", "weight": 0.9 },
+      { "candidate_tag": "communication", "weight": 0.8 }
+    ],
+    "economic_research": [
+      { "candidate_tag": "research", "weight": 0.7 },
+      { "candidate_tag": "quantitative_analysis", "weight": 0.6 }
+    ],
+    "cross_platform_debugging": [
+      { "candidate_tag": "testing", "weight": 0.6 },
+      { "candidate_tag": "requirements_validation", "weight": 0.5 }
+    ],
+    "testing_and_qa": [
+      { "candidate_tag": "testing", "weight": 0.9 },
+      { "candidate_tag": "requirements_validation", "weight": 0.6 },
+      { "candidate_tag": "implementation", "weight": 0.4 }
+    ],
+    "ml_deployment": [
+      { "candidate_tag": "ai_llm", "weight": 0.7 },
+      { "candidate_tag": "implementation", "weight": 0.6 }
+    ],
+    "analytical_operations": [
+      { "candidate_tag": "decision_support", "weight": 0.7 },
+      { "candidate_tag": "data_analysis", "weight": 0.6 }
+    ],
+    "grant_analysis": [
+      { "candidate_tag": "resource_allocation", "weight": 0.8 },
+      { "candidate_tag": "financial_analysis", "weight": 0.7 }
+    ],
+    "stakeholder_alignment": [
+      { "candidate_tag": "stakeholder_management", "weight": 0.9 },
+      { "candidate_tag": "communication", "weight": 0.7 }
+    ]
+  }
+}
